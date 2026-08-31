@@ -15,11 +15,10 @@
 </head>
 <body class="bg-[#0b0c10] text-white antialiased min-h-screen flex flex-col justify-between">
 
-  <!-- Header -->
+  <!-- Header con navegación funcional -->
   <header class="border-b border-gray-800 bg-[#0b0c10]/95 backdrop-blur sticky top-0 z-50">
     <div class="max-w-[1380px] mx-auto px-6 py-4 flex items-center justify-between">
       
-      <!-- Navegación con anclas 100% funcionales -->
       <nav class="flex items-center space-x-6 text-xs font-bold tracking-wider uppercase">
         <a href="#" class="text-white border-b-2 border-[#ff0055] pb-1">INICIO</a>
         <a href="#plugins-vst" class="text-gray-400 hover:text-white transition-colors">PLUGINS & VST</a>
@@ -31,7 +30,6 @@
         </a>
       </nav>
 
-      <!-- Logotipo The Thursdays Art -->
       <div class="text-right border-l pl-5 border-gray-700">
         <span class="font-brand text-2xl leading-none block text-white">The Thursdays</span>
         <span class="font-brand text-2xl leading-none block text-white">Art</span>
@@ -41,7 +39,7 @@
   </header>
 
   <!-- Hero Promocional -->
-  <section class="max-w-[1380px] mx-auto px-6 pt-5 pb-4">
+  <section class="max-w-[1380px] mx-auto px-6 pt-5 pb-6">
     <div class="relative bg-gradient-to-r from-[#0d1117] via-[#161b22] to-[#0a0d12] rounded-2xl overflow-hidden shadow-2xl border border-gray-800 flex flex-col lg:flex-row items-center justify-between p-8 lg:p-10 min-h-[340px]">
       
       <div class="absolute top-0 right-1/4 w-96 h-96 bg-[#d4ff00]/10 rounded-full blur-3xl pointer-events-none"></div>
@@ -68,7 +66,7 @@
           Plugins InstaComposer 3, sintetizadores VST, librerías EDM y descuentos flash de hasta el 85% para productores.
         </p>
         <div class="flex justify-center">
-          <a href="https://www.dpbolvw.net/click-101861050-14579757" target="_top" class="bg-[#d4ff00] text-black font-extrabold text-xs uppercase tracking-wider px-8 py-3.5 rounded-lg hover:bg-white hover:scale-105 transition-all shadow-lg shadow-[#d4ff00]/20">
+          <a href="#plugins-vst" class="bg-[#d4ff00] text-black font-extrabold text-xs uppercase tracking-wider px-8 py-3.5 rounded-lg hover:bg-white hover:scale-105 transition-all shadow-lg shadow-[#d4ff00]/20">
             VER OFERTAS FLASH
           </a>
         </div>
@@ -86,24 +84,16 @@
     </div>
   </section>
 
-  <!-- Banner Principal Leaderboard (728x90) -->
-  <div class="max-w-[1380px] mx-auto px-6 py-4 flex flex-col items-center">
-    <span class="text-[10px] text-gray-500 uppercase tracking-wider mb-1.5 font-bold">728x90 Leaderboard Banner</span>
-    <a href="https://www.dpbolvw.net/click-101861050-14579757" target="_top" class="hover:opacity-95 transition-opacity">
-      <img src="https://www.ftjcfx.com/image-101861050-14579757" width="728" height="90" alt="W.A. PRODUCTION: PLUGINS & SOUNDS FLASH DEALS" border="0" class="rounded-lg border border-gray-800 shadow-lg max-w-full h-auto" />
-    </a>
-  </div>
-
-  <!-- Catálogo Principal de Herramientas Musicales (20 Items en 4 Secciones) -->
+  <!-- Catálogo de Herramientas Musicales (Sin banner central) -->
   <main class="max-w-[1380px] mx-auto px-6 py-6 flex-grow">
     
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
       
       <!-- Grid de Contenidos (9 Columnas) -->
-      <div class="lg:col-span-9 space-y-10">
+      <div class="lg:col-span-9 space-y-12">
         
         <!-- SECCIÓN 1: PLUGINS & VST -->
-        <section id="plugins-vst" class="scroll-mt-24">
+        <section id="plugins-vst" class="scroll-mt-28">
           <div class="flex items-center justify-between mb-4 border-b border-gray-800 pb-2">
             <h2 class="text-sm font-extrabold uppercase tracking-wider text-white flex items-center gap-2">
               <span class="w-2 h-2 bg-[#ff0055] rounded-full"></span> PLUGINS & PROCESADORES VST
@@ -211,7 +201,7 @@
         </section>
 
         <!-- SECCIÓN 2: SOUNDS & SAMPLES -->
-        <section id="sounds-samples" class="scroll-mt-24">
+        <section id="sounds-samples" class="scroll-mt-28">
           <div class="flex items-center justify-between mb-4 border-b border-gray-800 pb-2">
             <h2 class="text-sm font-extrabold uppercase tracking-wider text-white flex items-center gap-2">
               <span class="w-2 h-2 bg-[#d4ff00] rounded-full"></span> LIBRERÍAS DE SONIDO & SAMPLE PACKS
@@ -319,7 +309,7 @@
         </section>
 
         <!-- SECCIÓN 3: DAW TEMPLATES -->
-        <section id="daw-templates" class="scroll-mt-24">
+        <section id="daw-templates" class="scroll-mt-28">
           <div class="flex items-center justify-between mb-4 border-b border-gray-800 pb-2">
             <h2 class="text-sm font-extrabold uppercase tracking-wider text-white flex items-center gap-2">
               <span class="w-2 h-2 bg-cyan-400 rounded-full"></span> PLANTILLAS DAW & PROYECTOS DE ESTUDIO
@@ -427,7 +417,7 @@
         </section>
 
         <!-- SECCIÓN 4: CURSOS & MASTERCLASSES -->
-        <section id="audio-courses" class="scroll-mt-24">
+        <section id="audio-courses" class="scroll-mt-28">
           <div class="flex items-center justify-between mb-4 border-b border-gray-800 pb-2">
             <h2 class="text-sm font-extrabold uppercase tracking-wider text-white flex items-center gap-2">
               <span class="w-2 h-2 bg-purple-500 rounded-full"></span> CURSOS & MASTERCLASSES DE PRODUCCIÓN
@@ -545,7 +535,6 @@
           </a>
         </div>
 
-        <!-- Pie Institucional -->
         <div class="mt-4 text-center max-w-[280px]">
           <span class="font-brand text-2xl text-white block leading-none">The Thursdays Art</span>
           <p class="text-[11px] text-gray-400 leading-normal mt-1">
