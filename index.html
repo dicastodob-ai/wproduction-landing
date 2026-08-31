@@ -3,221 +3,180 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>W.A. Production | The Thursdays Art Producer Hub</title>
+  <title>The Thursdays Art | Hub de Producción & W.A. Production</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet" />
   <style>
     body { font-family: 'Space Grotesk', sans-serif; }
+    .font-brand { font-family: 'Caveat', cursive; }
   </style>
 </head>
-<body class="bg-[#0b0c10] text-[#c5c6c7] antialiased">
+<body class="bg-white text-gray-900 antialiased">
 
   <!-- Header -->
-  <header class="border-b border-[#1f2833] bg-[#0b0c10]/95 backdrop-blur sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <span class="text-white font-bold tracking-widest text-lg">THE THURSDAYS ART</span>
-        <span class="text-xs bg-[#45f3ff]/10 text-[#45f3ff] px-2.5 py-0.5 rounded border border-[#45f3ff]/30 font-semibold uppercase">PRODUCER HUB</span>
+  <header class="border-b border-gray-100 bg-white sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      
+      <!-- Navegación Izquierda / Centro -->
+      <nav class="flex items-center space-x-8 text-xs font-bold tracking-wider uppercase">
+        <a href="#" class="text-black border-b-2 border-black pb-1">Inicio</a>
+        <a href="#novedades" class="text-gray-500 hover:text-black transition-colors">Novedades</a>
+        <a href="#vinilos" class="text-gray-500 hover:text-black transition-colors">Vinilos</a>
+        <a href="#merch" class="text-gray-500 hover:text-black transition-colors">Merch</a>
+        <a href="#wa-production" class="bg-[#d4ff00] text-black px-2.5 py-1 rounded font-bold hover:bg-black hover:text-[#d4ff00] transition-colors">
+          W.A. Production
+        </a>
+      </nav>
+
+      <!-- Logo The Thursdays Art a la Derecha -->
+      <div class="flex items-center space-x-6">
+        <div class="flex items-center space-x-4 text-gray-700">
+          <svg class="w-5 h-5 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+          <div class="relative cursor-pointer">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+            <span class="absolute -top-2 -right-2 bg-[#d4ff00] text-black text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">2</span>
+          </div>
+        </div>
+        <div class="text-right border-l pl-6 border-gray-200">
+          <span class="font-brand text-2xl leading-none block text-black">The Thursdays</span>
+          <span class="font-brand text-2xl leading-none block text-black">Art</span>
+        </div>
       </div>
-      <div class="hidden sm:flex items-center space-x-6 text-sm">
-        <a href="#plugins" class="hover:text-white transition-colors">Plugins</a>
-        <a href="#samples" class="hover:text-white transition-colors">Samples</a>
-        <a href="#templates" class="hover:text-white transition-colors">DAW Templates</a>
-        <a href="#cursos" class="hover:text-white transition-colors">Cursos</a>
-      </div>
+
     </div>
   </header>
 
-  <!-- Banner Superior Leaderboard (728x90) -->
-  <div class="max-w-7xl mx-auto px-4 pt-8 pb-4 flex justify-center">
-    <a href="https://www.dpbolvw.net/click-101861050-14579757" target="_top" class="hover:opacity-90 transition-opacity">
-      <img src="https://www.ftjcfx.com/image-101861050-14579757" width="728" height="90" alt="W.A. Production" class="rounded-lg border border-[#1f2833] max-w-full h-auto" />
+  <!-- Hero Banner Promocional -->
+  <section class="max-w-7xl mx-auto px-6 py-6">
+    <div class="bg-[#0b0c10] text-white rounded-2xl overflow-hidden shadow-xl grid grid-cols-1 lg:grid-cols-12 items-center min-h-[320px]">
+      
+      <!-- Vinilos Gráficos Izquierda -->
+      <div class="lg:col-span-3 p-6 flex justify-center">
+        <div class="relative w-48 h-48">
+          <div class="absolute inset-0 rounded-full bg-[#d4ff00] opacity-80 animate-pulse blur-xl"></div>
+          <img src="https://images.unsplash.com/photo-1539375665275-f9de415ef9ac?auto=format&fit=crop&w=400&q=80" alt="Vinyl Records" class="relative rounded-xl object-cover w-full h-full shadow-2xl" />
+        </div>
+      </div>
+
+      <!-- Copy Central -->
+      <div class="lg:col-span-6 p-6 text-center lg:text-left">
+        <div class="inline-block bg-[#ff0055]/20 text-[#ff0055] text-xs font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">
+          Alianza Oficial
+        </div>
+        <h1 class="text-2xl md:text-4xl font-bold tracking-tight mb-3">
+          W.A. PRODUCTION EN THE THURSDAYS ART
+        </h1>
+        <p class="text-gray-400 text-sm mb-6 max-w-lg">
+          Accede a licencias oficiales de InstaComposer 3, librerías de sonido exclusivas y descuentos flash de hasta el 85% para productores.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
+          <a href="https://www.dpbolvw.net/click-101861050-14579757" target="_top" class="bg-[#d4ff00] text-black text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-lg hover:bg-white transition-all shadow-md">
+            Ver Ofertas Flash
+          </a>
+        </div>
+      </div>
+
+      <!-- Creatividad Plugin Derecha -->
+      <div class="lg:col-span-3 p-6 flex justify-center">
+        <a href="https://www.tkqlhce.com/click-101861050-14579776" target="_top" class="block hover:scale-105 transition-transform">
+          <img src="https://www.lduhtrp.net/image-101861050-14579776" width="220" height="180" alt="InstaComposer Plugin" class="rounded-xl border border-gray-800 shadow-lg" />
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Leaderboard Banner 728x90 -->
+  <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col items-center">
+    <span class="text-[10px] text-gray-400 uppercase tracking-wider mb-1">Anuncio Oficial W.A. Production</span>
+    <a href="https://www.dpbolvw.net/click-101861050-14579757" target="_top">
+      <img src="https://www.ftjcfx.com/image-101861050-14579757" width="728" height="90" alt="Flash Deals" class="rounded-lg border border-gray-200" />
     </a>
   </div>
 
-  <!-- Hero Section -->
-  <section class="max-w-4xl mx-auto px-4 py-12 text-center">
-    <div class="inline-flex items-center gap-2 bg-[#45f3ff]/10 border border-[#45f3ff]/30 text-[#45f3ff] px-3.5 py-1 rounded-full text-xs font-semibold mb-6">
-      ⚡ CATÁLOGO OFICIAL & DESCUENTOS CJ AFFILIATE
-    </div>
-    <h1 class="text-4xl md:text-6xl font-bold text-white tracking-tight mb-6">
-      Herramientas de Élite para Productores & DJs
-    </h1>
-    <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-8">
-      Colección integral de herramientas de estudio, sintetizadores virtuales, librerías EDM y suites de mezcla de <span class="text-white font-semibold">W.A. Production</span>.
-    </p>
-  </section>
+  <!-- Catálogo de Vinilos & Anuncio Lateral -->
+  <main id="vinilos" class="max-w-7xl mx-auto px-6 py-10">
+    <h2 class="text-sm font-bold uppercase tracking-wider text-black mb-6">ÚLTIMOS LANZAMIENTOS EN VINILO</h2>
 
-  <!-- Categoría 1: Plugins & Efectos VST -->
-  <section id="plugins" class="max-w-7xl mx-auto px-4 py-10 border-t border-[#1f2833]">
-    <div class="flex items-center justify-between mb-8">
-      <div>
-        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-          <span class="w-2.5 h-2.5 bg-[#45f3ff] rounded-full"></span> Plugins & Procesadores de Audio
-        </h2>
-        <p class="text-sm text-gray-400 mt-1">Efectos de mezcla, masterización y generadores melódicos avanzados</p>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      
+      <!-- Listado de Productos (9 Columnas) -->
+      <div class="lg:col-span-9 grid grid-cols-2 sm:grid-cols-4 gap-6">
+        
+        <!-- Producto 1 -->
+        <div class="flex flex-col">
+          <div class="bg-black aspect-square rounded-lg flex items-center justify-center p-4 text-center mb-3">
+            <span class="text-white font-bold text-xs uppercase tracking-tight">Minimal Grooves</span>
+          </div>
+          <span class="text-xs font-bold text-black">Minimal Grooves</span>
+          <span class="text-[11px] text-gray-500">Minimal Grooves</span>
+          <span class="text-xs font-bold text-black mt-1">$3.00</span>
+          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-1.5 rounded hover:bg-gray-800 transition-colors">
+            Añadir al carrito
+          </button>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="flex flex-col">
+          <div class="bg-gray-900 aspect-square rounded-lg flex items-center justify-center p-4 text-center mb-3">
+            <span class="text-white font-bold text-xs uppercase tracking-tight">Techno Visions</span>
+          </div>
+          <span class="text-xs font-bold text-black">Techno Visions</span>
+          <span class="text-[11px] text-gray-500">Techno Visions</span>
+          <span class="text-xs font-bold text-black mt-1">$3.00</span>
+          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-1.5 rounded hover:bg-gray-800 transition-colors">
+            Añadir al carrito
+          </button>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="flex flex-col">
+          <div class="bg-gradient-to-br from-indigo-500 to-rose-400 aspect-square rounded-lg mb-3"></div>
+          <span class="text-xs font-bold text-black">Minimal Grooves</span>
+          <span class="text-[11px] text-gray-500">Anda Sinanny</span>
+          <span class="text-xs font-bold text-black mt-1">$2.00</span>
+          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-1.5 rounded hover:bg-gray-800 transition-colors">
+            Añadir al carrito
+          </button>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="flex flex-col">
+          <div class="bg-gray-900 aspect-square rounded-lg flex items-center justify-center p-4 text-center mb-3">
+            <span class="text-white font-bold text-xs uppercase tracking-tight">Wak Tham</span>
+          </div>
+          <span class="text-xs font-bold text-black">Wak Tham</span>
+          <span class="text-[11px] text-gray-500">Tectro Vlsons</span>
+          <span class="text-xs font-bold text-black mt-1">$3.50</span>
+          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-1.5 rounded hover:bg-gray-800 transition-colors">
+            Añadir al carrito
+          </button>
+        </div>
+
       </div>
-    </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center justify-items-center">
-      <!-- Card 1 -->
-      <div class="bg-[#1f2833]/20 border border-[#1f2833] rounded-xl p-5 w-full flex flex-col items-center justify-center hover:border-[#45f3ff]/50 transition-all">
-        <a href="https://www.tkqlhce.com/click-101861050-14579776" target="_top">
-          <img src="https://www.lduhtrp.net/image-101861050-14579776" width="300" height="250" alt="Audio Plugins Deals" class="rounded-lg" />
-        </a>
-        <span class="mt-4 text-xs font-medium text-[#45f3ff] uppercase tracking-wider">Audio Plugins Deals</span>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="bg-[#1f2833]/20 border border-[#1f2833] rounded-xl p-5 w-full flex flex-col items-center justify-center hover:border-[#45f3ff]/50 transition-all">
-        <a href="https://www.anrdoezrs.net/click-101861050-14579758" target="_top">
-          <img src="https://www.lduhtrp.net/image-101861050-14579758" width="300" height="250" alt="Plugins Catalog" class="rounded-lg" />
-        </a>
-        <span class="mt-4 text-xs font-medium text-[#45f3ff] uppercase tracking-wider">Plugins & FX Suite</span>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="bg-[#1f2833]/20 border border-[#1f2833] rounded-xl p-5 w-full flex flex-col items-center justify-center hover:border-[#45f3ff]/50 transition-all">
-        <a href="https://www.tkqlhce.com/click-101861050-14579760" target="_top">
-          <img src="https://www.jdoqocy.com/image-101861050-14579760" width="300" height="250" alt="VST Collection" class="rounded-lg" />
-        </a>
-        <span class="mt-4 text-xs font-medium text-[#45f3ff] uppercase tracking-wider">Colección VST</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Categoría 2: Librerías de Sonido & Samples -->
-  <section id="samples" class="max-w-7xl mx-auto px-4 py-10 border-t border-[#1f2833]">
-    <div class="flex items-center justify-between mb-8">
-      <div>
-        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-          <span class="w-2.5 h-2.5 bg-[#ff0055] rounded-full"></span> Librerías de Sonido & Samples
-        </h2>
-        <p class="text-sm text-gray-400 mt-1">Packs de baterías, sintetizadores, loops y presets para música electrónica</p>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center justify-items-center">
-      <!-- Card 1 -->
-      <div class="bg-[#1f2833]/20 border border-[#1f2833] rounded-xl p-5 w-full flex flex-col items-center justify-center hover:border-[#ff0055]/50 transition-all">
+      <!-- Banner Lateral 300x250 (3 Columnas) -->
+      <div id="wa-production" class="lg:col-span-3 flex flex-col items-center bg-gray-50 p-4 rounded-xl border border-gray-100">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-2">Promoción Destacada</span>
         <a href="https://www.kqzyfj.com/click-101861050-14579767" target="_top">
-          <img src="https://www.ftjcfx.com/image-101861050-14579767" width="300" height="250" alt="Sounds & Sample Packs" class="rounded-lg" />
+          <img src="https://www.ftjcfx.com/image-101861050-14579767" width="300" height="250" alt="W.A. Production" class="rounded-lg shadow-sm" />
         </a>
-        <span class="mt-4 text-xs font-medium text-[#ff0055] uppercase tracking-wider">Sounds & Sample Packs</span>
+        <div class="mt-4 text-center">
+          <span class="font-brand text-xl text-black block">The Thursdays Art</span>
+          <p class="text-[11px] text-gray-500 leading-tight mt-1">
+            Apoyo a la comunidad independiente de productores y vinilo electrónico.
+          </p>
+        </div>
       </div>
 
-      <!-- Card 2 -->
-      <div class="bg-[#1f2833]/20 border border-[#1f2833] rounded-xl p-5 w-full flex flex-col items-center justify-center hover:border-[#ff0055]/50 transition-all">
-        <a href="https://www.dpbolvw.net/click-101861050-14579764" target="_top">
-          <img src="https://www.ftjcfx.com/image-101861050-14579764" width="300" height="250" alt="EDM Sample Packs" class="rounded-lg" />
-        </a>
-        <span class="mt-4 text-xs font-medium text-[#ff0055] uppercase tracking-wider">EDM Production Sounds</span>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="bg-[#1f2833]/20 border border-[#1f2833] rounded-xl p-5 w-full flex flex-col items-center justify-center hover:border-[#ff0055]/50 transition-all">
-        <a href="https://www.dpbolvw.net/click-101861050-14579774" target="_top">
-          <img src="https://www.lduhtrp.net/image-101861050-14579774" width="300" height="250" alt="Sample Packs" class="rounded-lg" />
-        </a>
-        <span class="mt-4 text-xs font-medium text-[#ff0055] uppercase tracking-wider">Bancos de Sonidos</span>
-      </div>
     </div>
-  </section>
-
-  <!-- Categoría 3: Plantillas DAW & Skyscraper Showcase -->
-  <section id="templates" class="max-w-7xl mx-auto px-4 py-10 border-t border-[#1f2833]">
-    <div class="flex items-center justify-between mb-8">
-      <div>
-        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-          <span class="w-2.5 h-2.5 bg-[#45f3ff] rounded-full"></span> Plantillas DAW & Formatos Especiales
-        </h2>
-        <p class="text-sm text-gray-400 mt-1">Proyectos completos para FL Studio, Ableton Live y Logic Pro</p>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-center justify-items-center">
-      <!-- Skyscraper 1 -->
-      <div class="bg-[#1f2833]/20 border border-[#1f2833] rounded-xl p-4 flex flex-col items-center justify-center hover:border-[#45f3ff]/50 transition-all">
-        <a href="https://www.jdoqocy.com/click-101861050-14579770" target="_top">
-          <img src="https://www.ftjcfx.com/image-101861050-14579770" width="160" height="600" alt="W.A. Sounds 160x600" class="rounded-lg" />
-        </a>
-      </div>
-
-      <!-- Skyscraper 2 -->
-      <div class="bg-[#1f2833]/20 border border-[#1f2833] rounded-xl p-4 flex flex-col items-center justify-center hover:border-[#45f3ff]/50 transition-all">
-        <a href="https://www.kqzyfj.com/click-101861050-14579771" target="_top">
-          <img src="https://www.lduhtrp.net/image-101861050-14579771" width="160" height="600" alt="W.A. Plugins 160x600" class="rounded-lg" />
-        </a>
-      </div>
-
-      <!-- Skyscraper 3 -->
-      <div class="bg-[#1f2833]/20 border border-[#1f2833] rounded-xl p-4 flex flex-col items-center justify-center hover:border-[#45f3ff]/50 transition-all">
-        <a href="https://www.anrdoezrs.net/click-101861050-14579781" target="_top">
-          <img src="https://www.jdoqocy.com/image-101861050-14579781" width="160" height="600" alt="DAW Templates 160x600" class="rounded-lg" />
-        </a>
-      </div>
-
-      <!-- Skyscraper 4 -->
-      <div class="bg-[#1f2833]/20 border border-[#1f2833] rounded-xl p-4 flex flex-col items-center justify-center hover:border-[#45f3ff]/50 transition-all">
-        <a href="https://www.dpbolvw.net/click-101861050-14579777" target="_top">
-          <img src="https://www.lduhtrp.net/image-101861050-14579777" width="160" height="600" alt="Studio FX 160x600" class="rounded-lg" />
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Categoría 4: Enlaces Directos & Cursos -->
-  <section id="cursos" class="max-w-7xl mx-auto px-4 py-12 border-t border-[#1f2833]">
-    <div class="mb-8 text-center md:text-left">
-      <h2 class="text-2xl font-bold text-white">Cursos, Bundles & Expansiones Directas</h2>
-      <p class="text-sm text-gray-400 mt-1">Acceso directo a colecciones especializadas</p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <a href="https://www.jdoqocy.com/click-101861050-14579753" target="_top" class="bg-[#1f2833]/30 border border-[#1f2833] p-4 rounded-xl hover:border-[#45f3ff] transition-all block">
-        <div class="text-sm font-semibold text-white">Audio Courses & Video Tutorials</div>
-        <div class="text-xs text-gray-400 mt-1">Masterclasses impartidas por ingenieros de audio profesionales.</div>
-      </a>
-
-      <a href="https://www.anrdoezrs.net/click-101861050-15108248" target="_top" class="bg-[#1f2833]/30 border border-[#1f2833] p-4 rounded-xl hover:border-[#45f3ff] transition-all block">
-        <div class="text-sm font-semibold text-white">Artist Series Bundles</div>
-        <div class="text-xs text-gray-400 mt-1">Packs de sonido firmados por productores internacionales.</div>
-      </a>
-
-      <a href="https://www.dpbolvw.net/click-101861050-15108258" target="_top" class="bg-[#1f2833]/30 border border-[#1f2833] p-4 rounded-xl hover:border-[#45f3ff] transition-all block">
-        <div class="text-sm font-semibold text-white">Babylon Synth & Expansions</div>
-        <div class="text-xs text-gray-400 mt-1">Sintetizador polifónico insignia y expansiones de presets.</div>
-      </a>
-
-      <a href="https://www.anrdoezrs.net/click-101861050-14579745" target="_top" class="bg-[#1f2833]/30 border border-[#1f2833] p-4 rounded-xl hover:border-[#45f3ff] transition-all block">
-        <div class="text-sm font-semibold text-white">Innovative Audio Plugins</div>
-        <div class="text-xs text-gray-400 mt-1">Procesadores dinámicos y algoritmos de distorsión armónica.</div>
-      </a>
-
-      <a href="https://www.dpbolvw.net/click-101861050-14579755" target="_top" class="bg-[#1f2833]/30 border border-[#1f2833] p-4 rounded-xl hover:border-[#45f3ff] transition-all block">
-        <div class="text-sm font-semibold text-white">EDM Sound Design Tools</div>
-        <div class="text-xs text-gray-400 mt-1">Enfoque dinámico para diseño de sonido moderno y drop design.</div>
-      </a>
-
-      <a href="https://www.kqzyfj.com/click-101861050-14579751" target="_top" class="bg-[#1f2833]/30 border border-[#1f2833] p-4 rounded-xl hover:border-[#45f3ff] transition-all block">
-        <div class="text-sm font-semibold text-white">Future Sounds & Presets</div>
-        <div class="text-xs text-gray-400 mt-1">Librerías vanguardistas para Serum, Massive y Sylenth1.</div>
-      </a>
-    </div>
-  </section>
-
-  <!-- Banner Inferior Leaderboard (728x90) -->
-  <div class="max-w-7xl mx-auto px-4 py-8 flex justify-center border-t border-[#1f2833]">
-    <a href="https://www.kqzyfj.com/click-101861050-14579756" target="_top" class="hover:opacity-90 transition-opacity">
-      <img src="https://www.ftjcfx.com/image-101861050-14579756" width="728" height="90" alt="W.A. Production Footer" class="rounded-lg border border-[#1f2833] max-w-full h-auto" />
-    </a>
-  </div>
+  </main>
 
   <!-- Footer -->
-  <footer class="border-t border-[#1f2833] py-8 text-center text-xs text-gray-500 bg-[#0b0c10]">
-    <p>© 2026 The Thursdays Art. Todos los derechos reservados. Campaña oficial de afiliación en colaboración con W.A. Production.</p>
+  <footer class="border-t border-gray-100 py-8 text-center text-xs text-gray-400">
+    <p>© 2026 The Thursdays Art. Todos los derechos reservados.</p>
   </footer>
 
 </body>
