@@ -3,43 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Thursdays Art | Hub de Producción & W.A. Production</title>
+  <title>The Thursdays Art | Catálogo & W.A. Production</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet" />
   <style>
     body { font-family: 'Space Grotesk', sans-serif; }
     .font-brand { font-family: 'Caveat', cursive; }
   </style>
 </head>
-<body class="bg-white text-gray-900 antialiased">
+<body class="bg-white text-gray-900 antialiased min-h-screen flex flex-col justify-between">
 
   <!-- Header -->
   <header class="border-b border-gray-100 bg-white sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="max-w-[1380px] mx-auto px-6 py-4 flex items-center justify-between">
       
       <!-- Navegación Izquierda / Centro -->
-      <nav class="flex items-center space-x-8 text-xs font-bold tracking-wider uppercase">
-        <a href="#" class="text-black border-b-2 border-black pb-1">Inicio</a>
-        <a href="#novedades" class="text-gray-500 hover:text-black transition-colors">Novedades</a>
-        <a href="#vinilos" class="text-gray-500 hover:text-black transition-colors">Vinilos</a>
-        <a href="#merch" class="text-gray-500 hover:text-black transition-colors">Merch</a>
-        <a href="#wa-production" class="bg-[#d4ff00] text-black px-2.5 py-1 rounded font-bold hover:bg-black hover:text-[#d4ff00] transition-colors">
-          W.A. Production
+      <nav class="flex items-center space-x-7 text-xs font-bold tracking-wider uppercase">
+        <a href="#" class="text-black border-b-2 border-black pb-1">INICIO</a>
+        <a href="#novedades" class="text-gray-500 hover:text-black transition-colors">NOVEDADES</a>
+        <a href="#vinilos" class="text-gray-500 hover:text-black transition-colors">VINILOS</a>
+        <a href="#merch" class="text-gray-500 hover:text-black transition-colors">MERCH</a>
+        <a href="https://www.dpbolvw.net/click-101861050-14579757" target="_top" class="bg-[#d4ff00] text-black px-3 py-1 rounded font-bold hover:bg-black hover:text-[#d4ff00] transition-colors">
+          W.A. PRODUCTION
         </a>
       </nav>
 
-      <!-- Logo The Thursdays Art a la Derecha -->
+      <!-- Iconos y Logotipo The Thursdays Art (Derecha) -->
       <div class="flex items-center space-x-6">
         <div class="flex items-center space-x-4 text-gray-700">
-          <svg class="w-5 h-5 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+          <svg class="w-5 h-5 cursor-pointer hover:text-black transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
           <div class="relative cursor-pointer">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+            <svg class="w-5 h-5 text-gray-700 hover:text-black transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
             <span class="absolute -top-2 -right-2 bg-[#d4ff00] text-black text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">2</span>
           </div>
         </div>
-        <div class="text-right border-l pl-6 border-gray-200">
+        <div class="text-right border-l pl-5 border-gray-200">
           <span class="font-brand text-2xl leading-none block text-black">The Thursdays</span>
           <span class="font-brand text-2xl leading-none block text-black">Art</span>
         </div>
@@ -49,123 +49,160 @@
   </header>
 
   <!-- Hero Banner Promocional -->
-  <section class="max-w-7xl mx-auto px-6 py-6">
-    <div class="bg-[#0b0c10] text-white rounded-2xl overflow-hidden shadow-xl grid grid-cols-1 lg:grid-cols-12 items-center min-h-[320px]">
+  <section class="max-w-[1380px] mx-auto px-6 pt-5 pb-6">
+    <div class="relative bg-gradient-to-r from-[#0d1117] via-[#161b22] to-[#0a0d12] rounded-2xl overflow-hidden shadow-2xl border border-gray-800 flex flex-col lg:flex-row items-center justify-between p-8 lg:p-10 min-h-[380px]">
       
-      <!-- Vinilos Gráficos Izquierda -->
-      <div class="lg:col-span-3 p-6 flex justify-center">
-        <div class="relative w-48 h-48">
-          <div class="absolute inset-0 rounded-full bg-[#d4ff00] opacity-80 animate-pulse blur-xl"></div>
-          <img src="https://images.unsplash.com/photo-1539375665275-f9de415ef9ac?auto=format&fit=crop&w=400&q=80" alt="Vinyl Records" class="relative rounded-xl object-cover w-full h-full shadow-2xl" />
+      <!-- Efecto Glow de Fondo -->
+      <div class="absolute top-0 right-1/4 w-96 h-96 bg-[#d4ff00]/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <!-- Vinilos Gráficos (Izquierda) -->
+      <div class="w-full lg:w-1/4 flex justify-center mb-6 lg:mb-0">
+        <div class="relative flex items-center justify-center">
+          <div class="w-36 h-36 md:w-44 md:h-44 rounded-full bg-gradient-to-tr from-yellow-400 to-lime-400 p-1 shadow-2xl rotate-[-12deg] relative z-10">
+            <div class="w-full h-full rounded-full bg-black flex items-center justify-center border-4 border-black/40">
+              <div class="w-12 h-12 rounded-full bg-yellow-400 flex items-center justify-center text-[8px] font-bold text-black">VINYL</div>
+            </div>
+          </div>
+          <div class="w-36 h-36 md:w-44 md:h-44 rounded-full bg-gradient-to-tr from-cyan-400 to-blue-600 p-1 shadow-xl rotate-[15deg] absolute -right-6 -bottom-3 z-20">
+            <div class="w-full h-full rounded-full bg-black flex items-center justify-center border-4 border-black/40">
+              <div class="w-12 h-12 rounded-full bg-cyan-400 flex items-center justify-center text-[8px] font-bold text-black">TTA</div>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Copy Central -->
-      <div class="lg:col-span-6 p-6 text-center lg:text-left">
-        <div class="inline-block bg-[#ff0055]/20 text-[#ff0055] text-xs font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">
-          Alianza Oficial
-        </div>
-        <h1 class="text-2xl md:text-4xl font-bold tracking-tight mb-3">
-          W.A. PRODUCTION EN THE THURSDAYS ART
+      <div class="w-full lg:w-2/4 text-center px-4 z-30">
+        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight uppercase leading-tight mb-4">
+          COLABORACIÓN EXCLUSIVA:<br />
+          <span class="text-white">THE THURSDAYS ART</span> <span class="text-[#d4ff00]">x</span> <span class="text-white">W.A. PRODUCTION</span>
         </h1>
-        <p class="text-gray-400 text-sm mb-6 max-w-lg">
-          Accede a licencias oficiales de InstaComposer 3, librerías de sonido exclusivas y descuentos flash de hasta el 85% para productores.
+        <p class="text-gray-300 text-sm sm:text-base font-normal mb-8 max-w-xl mx-auto">
+          Plugins InstaComposer 3 & Sonidos Future Bass + Descuentos Flash de hasta el 85%
         </p>
-        <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
-          <a href="https://www.dpbolvw.net/click-101861050-14579757" target="_top" class="bg-[#d4ff00] text-black text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-lg hover:bg-white transition-all shadow-md">
-            Ver Ofertas Flash
+        <div class="flex justify-center">
+          <a href="https://www.dpbolvw.net/click-101861050-14579757" target="_top" class="bg-[#d4ff00] text-black font-extrabold text-xs uppercase tracking-wider px-8 py-3.5 rounded-lg hover:bg-white hover:scale-105 transition-all shadow-lg shadow-[#d4ff00]/20">
+            VER OFERTAS FLASH
           </a>
         </div>
       </div>
 
-      <!-- Creatividad Plugin Derecha -->
-      <div class="lg:col-span-3 p-6 flex justify-center">
-        <a href="https://www.tkqlhce.com/click-101861050-14579776" target="_top" class="block hover:scale-105 transition-transform">
-          <img src="https://www.lduhtrp.net/image-101861050-14579776" width="220" height="180" alt="InstaComposer Plugin" class="rounded-xl border border-gray-800 shadow-lg" />
+      <!-- Mockup Plugins / Software (Derecha) -->
+      <div class="w-full lg:w-1/4 flex justify-center mt-6 lg:mt-0 z-30">
+        <a href="https://www.tkqlhce.com/click-101861050-14579776" target="_top" class="group relative bg-[#0b0c10]/80 border border-gray-700 p-3 rounded-xl shadow-2xl hover:border-[#d4ff00] transition-all">
+          <div class="bg-gray-900 rounded-lg p-3 text-center w-52">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[9px] text-gray-400 font-bold uppercase">W.A. Production</span>
+              <span class="text-[9px] bg-[#d4ff00] text-black px-1.5 py-0.5 rounded font-bold">VST3</span>
+            </div>
+            <div class="w-full h-24 bg-gradient-to-br from-gray-800 to-black rounded-lg border border-gray-700 flex flex-col items-center justify-center p-2 mb-2 group-hover:border-[#d4ff00]/50 transition-colors">
+              <span class="text-xs font-bold text-white">InstaComposer 3</span>
+              <span class="text-[10px] text-[#d4ff00] mt-1 font-semibold">AI Next-Gen Engine</span>
+            </div>
+            <span class="text-[10px] text-gray-400 group-hover:text-white transition-colors block">Explorar Plugins Suite →</span>
+          </div>
         </a>
       </div>
 
     </div>
   </section>
 
-  <!-- Leaderboard Banner 728x90 -->
-  <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col items-center">
-    <span class="text-[10px] text-gray-400 uppercase tracking-wider mb-1">Anuncio Oficial W.A. Production</span>
-    <a href="https://www.dpbolvw.net/click-101861050-14579757" target="_top">
-      <img src="https://www.ftjcfx.com/image-101861050-14579757" width="728" height="90" alt="Flash Deals" class="rounded-lg border border-gray-200" />
-    </a>
-  </div>
+  <!-- Catálogo de Vinilos & Banner Lateral Oficial -->
+  <main id="vinilos" class="max-w-[1380px] mx-auto px-6 py-6 flex-grow">
+    <h2 class="text-sm font-extrabold uppercase tracking-wider text-black mb-6">ÚLTIMOS LANZAMIENTOS EN VINILO</h2>
 
-  <!-- Catálogo de Vinilos & Anuncio Lateral -->
-  <main id="vinilos" class="max-w-7xl mx-auto px-6 py-10">
-    <h2 class="text-sm font-bold uppercase tracking-wider text-black mb-6">ÚLTIMOS LANZAMIENTOS EN VINILO</h2>
-
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
       
-      <!-- Listado de Productos (9 Columnas) -->
-      <div class="lg:col-span-9 grid grid-cols-2 sm:grid-cols-4 gap-6">
+      <!-- Listado de Vinilos (5 Columnas) -->
+      <div class="lg:col-span-9 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
         
-        <!-- Producto 1 -->
+        <!-- Vinilo 1 -->
         <div class="flex flex-col">
-          <div class="bg-black aspect-square rounded-lg flex items-center justify-center p-4 text-center mb-3">
-            <span class="text-white font-bold text-xs uppercase tracking-tight">Minimal Grooves</span>
+          <div class="bg-black aspect-square rounded-xl flex items-center justify-center p-4 text-center mb-3 shadow-md">
+            <span class="text-white font-extrabold text-xs tracking-wider">MINIMAL GROOVES</span>
           </div>
-          <span class="text-xs font-bold text-black">Minimal Grooves</span>
+          <span class="text-xs font-bold text-black truncate">Minimal Grooves</span>
           <span class="text-[11px] text-gray-500">Minimal Grooves</span>
           <span class="text-xs font-bold text-black mt-1">$3.00</span>
-          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-1.5 rounded hover:bg-gray-800 transition-colors">
+          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-2 rounded-md hover:bg-gray-800 transition-colors">
             Añadir al carrito
           </button>
         </div>
 
-        <!-- Producto 2 -->
+        <!-- Vinilo 2 -->
         <div class="flex flex-col">
-          <div class="bg-gray-900 aspect-square rounded-lg flex items-center justify-center p-4 text-center mb-3">
-            <span class="text-white font-bold text-xs uppercase tracking-tight">Techno Visions</span>
+          <div class="bg-[#12161f] aspect-square rounded-xl flex items-center justify-center p-4 text-center mb-3 shadow-md border border-gray-800">
+            <span class="text-white font-extrabold text-xs tracking-wider">TECHNO VISIONS</span>
           </div>
-          <span class="text-xs font-bold text-black">Techno Visions</span>
+          <span class="text-xs font-bold text-black truncate">Techno Visions</span>
           <span class="text-[11px] text-gray-500">Techno Visions</span>
           <span class="text-xs font-bold text-black mt-1">$3.00</span>
-          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-1.5 rounded hover:bg-gray-800 transition-colors">
+          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-2 rounded-md hover:bg-gray-800 transition-colors">
             Añadir al carrito
           </button>
         </div>
 
-        <!-- Producto 3 -->
+        <!-- Vinilo 3 -->
         <div class="flex flex-col">
-          <div class="bg-gradient-to-br from-indigo-500 to-rose-400 aspect-square rounded-lg mb-3"></div>
-          <span class="text-xs font-bold text-black">Minimal Grooves</span>
+          <div class="bg-gradient-to-tr from-purple-600 via-indigo-500 to-rose-400 aspect-square rounded-xl mb-3 shadow-md"></div>
+          <span class="text-xs font-bold text-black truncate">Minimal Grooves</span>
           <span class="text-[11px] text-gray-500">Anda Sinanny</span>
           <span class="text-xs font-bold text-black mt-1">$2.00</span>
-          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-1.5 rounded hover:bg-gray-800 transition-colors">
+          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-2 rounded-md hover:bg-gray-800 transition-colors">
             Añadir al carrito
           </button>
         </div>
 
-        <!-- Producto 4 -->
+        <!-- Vinilo 4 -->
         <div class="flex flex-col">
-          <div class="bg-gray-900 aspect-square rounded-lg flex items-center justify-center p-4 text-center mb-3">
-            <span class="text-white font-bold text-xs uppercase tracking-tight">Wak Tham</span>
+          <div class="bg-[#1a1c23] aspect-square rounded-xl flex items-center justify-center p-4 text-center mb-3 shadow-md">
+            <span class="text-white font-extrabold text-xs tracking-wider">TECHNO VISIONS</span>
           </div>
-          <span class="text-xs font-bold text-black">Wak Tham</span>
+          <span class="text-xs font-bold text-black truncate">Techno Visions</span>
+          <span class="text-[11px] text-gray-500">Artist</span>
+          <span class="text-xs font-bold text-black mt-1">$3.00</span>
+          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-2 rounded-md hover:bg-gray-800 transition-colors">
+            Añadir al carrito
+          </button>
+        </div>
+
+        <!-- Vinilo 5 -->
+        <div class="flex flex-col">
+          <div class="bg-gradient-to-br from-blue-900 to-black aspect-square rounded-xl flex items-center justify-center p-4 text-center mb-3 shadow-md border border-blue-900/40">
+            <span class="text-white font-extrabold text-xs tracking-wider">WAK THAM</span>
+          </div>
+          <span class="text-xs font-bold text-black truncate">Wak Tham</span>
           <span class="text-[11px] text-gray-500">Tectro Vlsons</span>
           <span class="text-xs font-bold text-black mt-1">$3.50</span>
-          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-1.5 rounded hover:bg-gray-800 transition-colors">
+          <button class="mt-2 bg-black text-white text-[10px] font-bold uppercase tracking-wider py-2 rounded-md hover:bg-gray-800 transition-colors">
             Añadir al carrito
           </button>
         </div>
 
       </div>
 
-      <!-- Banner Lateral 300x250 (3 Columnas) -->
-      <div id="wa-production" class="lg:col-span-3 flex flex-col items-center bg-gray-50 p-4 rounded-xl border border-gray-100">
-        <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-2">Promoción Destacada</span>
-        <a href="https://www.kqzyfj.com/click-101861050-14579767" target="_top">
-          <img src="https://www.ftjcfx.com/image-101861050-14579767" width="300" height="250" alt="W.A. Production" class="rounded-lg shadow-sm" />
+      <!-- Banner Lateral Promoción Destacada (300x250 Medium Rectangle) -->
+      <div class="lg:col-span-3 flex flex-col items-center">
+        <a href="https://www.dpbolvw.net/click-101861050-14579757" target="_top" class="w-full max-w-[300px] h-[250px] bg-gradient-to-br from-[#0e1726] to-[#050811] border-2 border-gray-800 hover:border-[#d4ff00] rounded-2xl p-6 flex flex-col justify-between shadow-xl text-center group transition-all">
+          <div class="flex items-center justify-between">
+            <span class="text-2xl font-black text-white italic tracking-tighter">W.A</span>
+            <span class="text-[10px] bg-[#d4ff00] text-black font-extrabold px-2 py-0.5 rounded uppercase">⚡ FLASH</span>
+          </div>
+          <div>
+            <h3 class="text-lg font-black text-white uppercase tracking-tight leading-tight group-hover:text-[#d4ff00] transition-colors">
+              OFERTAS FLASH DIARIAS EN W.A. PRODUCTION
+            </h3>
+            <p class="text-[11px] text-gray-400 mt-1 font-medium">Plugins, Sample Packs & Presets</p>
+          </div>
+          <div class="bg-[#d4ff00] text-black font-extrabold text-[11px] uppercase tracking-wider py-2 rounded-lg group-hover:bg-white transition-colors">
+            VISITAR AHORA
+          </div>
         </a>
-        <div class="mt-4 text-center">
-          <span class="font-brand text-xl text-black block">The Thursdays Art</span>
-          <p class="text-[11px] text-gray-500 leading-tight mt-1">
+
+        <!-- Pie institucional The Thursdays Art -->
+        <div class="mt-5 text-center max-w-[280px]">
+          <span class="font-brand text-2xl text-black block leading-none">The Thursdays Art</span>
+          <p class="text-[11px] text-gray-500 leading-normal mt-1">
             Apoyo a la comunidad independiente de productores y vinilo electrónico.
           </p>
         </div>
@@ -175,7 +212,7 @@
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-gray-100 py-8 text-center text-xs text-gray-400">
+  <footer class="border-t border-gray-100 py-6 text-center text-xs text-gray-400">
     <p>© 2026 The Thursdays Art. Todos los derechos reservados.</p>
   </footer>
 
